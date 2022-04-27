@@ -27,7 +27,7 @@ body {
     color: #404040;
     font: 11px normal;
     font-family: Georgia, 'Garamond', sans-serif;
-    background-image: url('../images/silverware.jpg');
+    background-image: url('./images/silverware.jpg');
 }
 
 a {
@@ -53,5 +53,5 @@ pre {
 }
 
 ul {
-    list-style-image: url('../images/pie_icon.gif');
+    list-style-image: url('./images/pie_icon.gif');
 }
