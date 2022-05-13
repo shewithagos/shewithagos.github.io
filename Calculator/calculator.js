@@ -22,7 +22,7 @@ exports.displays=function(req,res,vals){
           res.write(String(result));
     res.write("</p>");
     res.write(
-        "<a href=' https://github.com/shewithagos/shewithagos.github.io/blob/main/Calculator/calculator.html'>Another calculation</a>"
+        "<a href=' https://shewithagos.github.io/Calculator/calculator.html'>Another calculation</a>"
          
       );
     res.write("</body>");
