@@ -1,9 +1,11 @@
 var mysql = require('mysql')
 var connection = mysql.createConnection({
-    host: '127.0.0.1:3306',
+    host: '127.0.0.1',
     user: 'root',
     password: 'Berhane30#00$',
+    port: "3306",
     database: 'entries'
+
 })
 connection.connect()
 exports.searchTerm = function(term, res) {
